@@ -1,0 +1,41 @@
+paths:
+  data_dir: data
+  raw_dir: data/data_raw
+  clean_dir: data/data_clean
+  artifacts_dir: artifacts
+  models_dir: models
+  rules_dir: artifacts/rules
+
+data:
+  sample_files:
+    amazon_jsonl: data/samples/amazon_sample.jsonl
+    gplay_csv: data/samples/gplay_sample.csv
+
+etl:
+  min_text_len: 20
+  dedup_on: ["platform","source_id","text"]
+
+annotation:
+  labelstudio_tasks: artifacts/labelstudio/tasks.jsonl
+  schema:
+    polarity: ["positive","negative","neutral"]
+    aspect_categories: ["battery","screen","performance","updates","price","design","usability","support","privacy","ads"]
+  sentence_sample_n: 5000
+
+modeling:
+  absa_train_file: artifacts/absa/absa_train.csv
+  absa_val_file: artifacts/absa/absa_val.csv
+  absa_test_file: artifacts/absa/absa_test.csv
+  model_name: "roberta-base"
+  max_len: 160
+  batch_size: 16
+  epochs: 3
+  lr: 2e-5
+  target_macro_f1: 0.85
+
+rules:
+  min_support: 0.02
+  min_confidence: 0.6
+
+dashboard:
+  refresh_minutes: 60

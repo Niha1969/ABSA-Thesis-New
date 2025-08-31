@@ -1,0 +1,12 @@
+<View>
+  <Text name="text" value="$text"/>
+  <Choices name="aspect" toName="text" required="true">
+    <Choice value="battery"/><Choice value="screen"/><Choice value="performance"/>
+    <Choice value="updates"/><Choice value="price"/><Choice value="design"/>
+    <Choice value="usability"/><Choice value="support"/><Choice value="privacy"/>
+    <Choice value="ads"/><Choice value="other"/>
+  </Choices>
+  <Choices name="polarity" toName="text" required="true">
+    <Choice value="positive"/><Choice value="negative"/><Choice value="neutral"/>
+  </Choices>
+</View>
