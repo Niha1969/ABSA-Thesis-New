@@ -1,0 +1,29 @@
+[
+  {
+    "antecedents": "Aspect=screen",
+    "consequents": "Polarity=negative",
+    "support": 0.0375,
+    "confidence": 0.7499999999999999,
+    "lift": 1.6666666666666663,
+    "leverage": 0.014999999999999996,
+    "conviction": 2.1999999999999993
+  },
+  {
+    "antecedents": "Aspect=design",
+    "consequents": "Polarity=negative",
+    "support": 0.1,
+    "confidence": 0.7272727272727273,
+    "lift": 1.6161616161616161,
+    "leverage": 0.038125,
+    "conviction": 2.016666666666667
+  },
+  {
+    "antecedents": "Aspect=support",
+    "consequents": "Polarity=negative",
+    "support": 0.025,
+    "confidence": 0.6666666666666667,
+    "lift": 1.4814814814814816,
+    "leverage": 0.008125,
+    "conviction": 1.6500000000000006
+  }
+]

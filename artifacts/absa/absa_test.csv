@@ -1,0 +1,91 @@
+annotation_id,annotator,aspect,created_at,id,lead_time,platform,polarity,sentence,source_id,updated_at
+661,1,general,2025-09-01T22:32:40.412036Z,1621,5.366,amazon,neutral,"If your flying on an airline that doesn’t charge extra for carry-ons, then this won’t be an issue since you can easily place the backpack in the overhead, which is what I recommend doing.",B078TZK6T6,2025-09-01T22:32:40.412080Z
+370,1,general,2025-09-01T18:45:52.006106Z,1330,4.33,amazon,neutral,It isn't so big that you can't fit it into a shoulder bag for work.,B00FHPLTJE,2025-09-01T18:45:52.006138Z
+478,1,design,2025-09-01T22:10:12.746633Z,1438,10.402,amazon,negative,"I guess you can get the other lame one here and there, so maybe I got a bum one, but it’s also big and ugly.",B083LLM6QJ,2025-09-01T22:10:12.746655Z
+1050,1,usability,2025-09-02T03:43:43.158794Z,2010,5.986,amazon,neutral,"It still works but it needs to be connected to my mobile. 😞 great sound, portable expecting more.",B01LNIA7N2,2025-09-02T03:43:43.158817Z
+1032,1,usability,2025-09-02T03:25:10.155360Z,1992,5.762,amazon,neutral,"The latter is preferred (by me!) as it is quickest and means you can have the switch tucked out of the way behind your computers.<br />Irritatingly, it only comes with the cables needed to connect two computers.",B08B5RB6YJ,2025-09-02T03:25:10.155400Z
+375,1,price,2025-09-01T18:46:24.123133Z,1335,11.338,amazon,negative,"However, at the current price (about $90 on Amazon), this hub seems expensive for what it is.",B013P0JU66,2025-09-01T18:46:24.123148Z
+220,1,general,2025-09-01T14:41:14.446813Z,1180,15.961,amazon,positive,I would and will recommend this router to anyone.,B078KNZBHM,2025-09-01T14:41:14.446827Z
+320,1,design,2025-09-01T17:27:48.756635Z,1280,12.264,amazon,negative,"But this solution  (and to a lesser extent the over-ear ones) take care of the problem-  My ears have particularly small canal openings and the two are not exactly the same, so this issue was more prevalent to me, no doubt, and I also wear glasses, which impact the outer ear.",B0837G66Q5,2025-09-01T17:27:48.756666Z
+604,1,usability,2025-09-01T22:26:06.081409Z,1564,9.928,amazon,negative,"I think that unless you have a specific liking to the available colors, you'll end up using this as a white light for simply photography or video setups.<br /><br />There is a single button on the light tube and its operation is as confusing as it is useless.",B08QV1SSX6,2025-09-01T22:26:06.081444Z
+161,1,usability,2025-09-01T03:15:19.163006Z,1121,7.862,amazon,neutral,"It can be moved up to 18"" from the wall, angled down 15 degrees, and can be rotated until the TV hits the wall.<br /><br />There is not a size limit, even though it says 55"".",B00QOOZ4DE,2025-09-01T03:15:19.163021Z
+246,1,general,2025-09-01T15:41:41.995024Z,1206,542.559,amazon,negative,I wish I could return it.,B00GD1BGYO,2025-09-01T15:41:41.995039Z
+993,1,performance,2025-09-02T03:14:29.195058Z,1953,7.717,amazon,negative,The older firmware/software it ships with is jumpy and hangs frequently.,B00BTODTKO,2025-09-02T03:14:29.195082Z
+280,1,performance,2025-09-01T16:04:37.051882Z,1240,3.132,amazon,positive,Great wireless earbuds!,B07L4VHK4H,2025-09-01T16:04:37.051918Z
+508,1,usability,2025-09-01T22:16:13.854239Z,1468,4.521,amazon,positive,I love them for work so I can just get focused on my work with music in the background and no distracting noises from coworkers.,B07XJZMBVT,2025-09-01T22:16:13.854280Z
+424,1,build_quality,2025-09-01T18:51:42.557017Z,1384,6.007000000000001,amazon,negative,My backstand got few  scratches cause the left side wouldn’t stick on the backstand of my surface..,B07GTH4SSC,2025-09-01T18:51:46.284635Z
+590,1,performance,2025-09-01T22:24:36.701946Z,1550,5.17,amazon,positive,sound amazing. way better then the stock ones they replaced in my charger,B01BLVEV8S,2025-09-01T22:24:36.701984Z
+898,1,general,2025-09-02T02:20:14.844163Z,1858,5.032,amazon,neutral,And it will re-calulate anytime I give off track.,B001ELJ9QK,2025-09-02T02:20:14.844189Z
+812,1,performance,2025-09-02T00:37:39.630761Z,1772,3.089,amazon,positive,just received yesterday and have been using since they arrived.  they are working great!,B08XM64PWK,2025-09-02T00:37:39.630784Z
+194,1,general,2025-09-01T14:23:45.998153Z,1154,185.912,amazon,positive,Other times I have only been able to use the product when the power delivery is connected.<br /><br />I believe that information to be quite relevant but that is not the reason I'm talking one star off.,B076KPQ4K5,2025-09-01T14:23:45.998166Z
+210,1,design,2025-09-01T14:33:32.035372Z,1170,20.416,amazon,negative,"I personally would not give up my mid-range projector for this one.<br />One thing that I found particularly annoying is that rather than the optical zoom and focus dials found on usual projectors, there is only a focus and tilt dial.",B07Z82LM7K,2025-09-01T14:33:32.035386Z
+464,1,build_quality,2025-09-01T21:44:49.061146Z,1424,7.637,amazon,positive,They arrived in good shape.,B00DFVK02O,2025-09-01T21:44:49.061169Z
+217,1,performance,2025-09-01T14:38:48.167014Z,1177,3.288,amazon,positive,As good as any 16-gauge speaker wire I've ever used.,B006LW0WDQ,2025-09-01T14:38:48.167033Z
+566,1,general,2025-09-01T22:21:56.951561Z,1526,3.14,amazon,positive,Great bag for larger lappy's.,B07547DFSF,2025-09-01T22:21:56.951591Z
+429,1,usability,2025-09-01T18:52:20.749961Z,1389,6.854,amazon,neutral,"Not a solid hard shell, but I have doped mine in the case with no problem.",B00L9JFJ3O,2025-09-01T18:52:20.749994Z
+638,1,performance,2025-09-01T22:29:32.580029Z,1598,7.458,amazon,positive,"Sound quality seems the same, and functionality is pretty much the same.<br /><br />Awesome solution for those with so-so hearing, or people sharing space and not wanting to bother neighbors or other residents.",B06XYTQJTN,2025-09-01T22:29:32.580052Z
+219,1,usability,2025-09-01T14:40:57.614526Z,1179,90.053,amazon,positive,"Many other brands don't have any app support for earbuds in this price range, but I love being able to customize the equalization to improve clarity for different types of music.",B09LH7B49B,2025-09-01T14:40:57.614541Z
+485,1,usability,2025-09-01T22:13:32.347655Z,1445,6.486,amazon,negative,"No one else in the house seems to care, so I'm not going to worry about it.<br /><br />There is a problem with touching the screen around the edges.",B00S9AMAPG,2025-09-01T22:13:32.347670Z
+711,1,performance,2025-09-01T22:48:18.113979Z,1671,344.02,amazon,neutral,I could get another mSATA but it could be a problem with the main board also.,B07KM48J4Q,2025-09-01T22:48:18.113992Z
+426,1,general,2025-09-01T18:52:00.516680Z,1386,8.33,amazon,negative,"There were cheaper meters for sale, but they had generally bad reviews.",B0002EH4YO,2025-09-01T18:52:00.516713Z
+159,1,build_quality,2025-09-01T03:15:05.319674Z,1119,10.642,amazon,positive,"Overall, I’m pleased to have found such high quality at this price-point and would recommend this set.",B079N9HDNQ,2025-09-01T03:15:05.319689Z
+631,1,general,2025-09-01T22:28:53.989406Z,1591,2.607,amazon,positive,Amazing how it works,B01DFKC2SO,2025-09-01T22:28:53.989428Z
+431,1,general,2025-09-01T18:52:31.504014Z,1391,4.829,amazon,neutral,But I ordered a $10 magnetic adapter and the magnetic diffuser dome for it so that settles that problem for an additional $20.,B01E16K04E,2025-09-01T18:52:31.504054Z
+648,1,other,2025-09-01T22:31:06.247680Z,1608,4.453,amazon,neutral,"The manual could be a little better, it is a translation, but not bad.",B07H32WVTF,2025-09-01T22:31:06.247726Z
+704,1,general,2025-09-01T22:41:53.133471Z,1664,3.62,amazon,neutral,It comes with two AA batteries.,B005DKZTMG,2025-09-01T22:41:53.133494Z
+436,1,battery,2025-09-01T20:41:47.516297Z,1396,37.755,amazon,positive,It charges the battery adequately enough to keep the camera active through the night.,B09WVLXKLF,2025-09-01T20:41:47.516310Z
+967,1,general,2025-09-02T03:02:45.083227Z,1927,7.313,amazon,negative,Problem is we had to go through six units to end up with the three we have now for the family.,B00AWIPITS,2025-09-02T03:02:45.083250Z
+1039,1,general,2025-09-02T03:25:42.017975Z,1999,3.495,amazon,neutral,"I already had the iSimple and its own audio jack installed in the center console, so I was just going to tie this into the existing setup.",B07J4GVS65,2025-09-02T03:25:42.017993Z
+529,1,usability,2025-09-01T22:18:19.452075Z,1489,4.37,amazon,positive,"We love the functionality of the Roku and use it often, especially for Netflix and Amazon Prime Direct.",B00BGGDVOO,2025-09-01T22:18:19.452088Z
+808,1,screen,2025-09-02T00:15:34.961494Z,1768,4.683,amazon,positive,Out of the box without any tuning whatsoever this is a great looking deep colored screen.,B01C5TFNSM,2025-09-02T00:15:34.961515Z
+1002,1,performance,2025-09-02T03:21:37.601853Z,1962,4.035,amazon,positive,The camera adjusted for the distance better than I ever imagined.,B001PKTR76,2025-09-02T03:21:37.601873Z
+686,1,battery,2025-09-01T22:39:23.410180Z,1646,6.293,amazon,positive,My tablet charges quickly now.,B0819TSMP2,2025-09-01T22:39:23.410202Z
+397,1,usability,2025-09-01T18:49:06.048242Z,1357,6.361,amazon,negative,"I love reading my kindle as is, dont like the extra weight of a cover.",B0057WTEWQ,2025-09-01T18:49:06.048281Z
+824,1,usability,2025-09-02T01:34:44.307007Z,1784,6.458,amazon,negative,"Well, more like the sound is terrible with some apps, like Netflix or Amazon Prime- where the volume is sometimes not able to go up enough to really hear it, and I have sound sensitive ears.",B07Q1BF8KJ,2025-09-02T01:34:44.307047Z
+443,1,design,2025-09-01T20:46:50.154135Z,1403,22.894,amazon,negative,"The headphones do not have ANC and I miss that a lot.<br /><br />The controls are basic, a volume wheel and a power button.",B08J2H44Z2,2025-09-01T20:46:50.154152Z
+832,1,usability,2025-09-02T01:37:08.920480Z,1792,2.945,amazon,positive,Perfect pad for my XPS 13!,B00N191N30,2025-09-02T01:37:08.920512Z
+610,1,other,2025-09-01T22:26:43.046740Z,1570,4.413,amazon,neutral,"If you see something you want to know more about, you can ask it and it will play the audio or video clip.",B01J24C0TI,2025-09-01T22:26:43.046773Z
+580,1,general,2025-09-01T22:23:30.302860Z,1540,2.712,amazon,positive,Great product<br />Looks great,B01M0HMPOI,2025-09-01T22:23:30.302873Z
+302,1,price,2025-09-01T16:14:50.224015Z,1262,6.805,amazon,positive,6 years... heavily used...got my moneys worth.,B00CMAQHUI,2025-09-01T16:14:50.224031Z
+231,1,usability,2025-09-01T14:42:45.789089Z,1191,4.756,amazon,positive,Certainly not as fast as the 950 Pro that I have in my desktop but it was perfect for a NUC build.,B00TGIVY1G,2025-09-01T14:42:45.789104Z
+710,1,general,2025-09-01T22:42:33.911674Z,1670,5.48,amazon,neutral,"But hearing is subjective, so best of luck finding  what you love...I did!",B000AJIF4E,2025-09-01T22:42:33.911696Z
+654,1,performance,2025-09-01T22:31:51.324568Z,1614,9.48,amazon,positive,I've had it about a month and a half and it works as expected.,B00GC4PXE6,2025-09-01T22:31:51.324600Z
+692,1,general,2025-09-01T22:39:47.217283Z,1652,3.427,amazon,neutral,I use this tuner with both EyeTV on a Mac and with Windows Media Center on a PC.,B00GY0UB54,2025-09-01T22:39:47.217302Z
+952,1,general,2025-09-02T03:00:42.542625Z,1912,6.701,amazon,positive,"THESE ARE SOMETHING ELSE, WORKS WELL, AND GETTING A LOT OF ATTENTION.",B008BBNOJE,2025-09-02T03:00:42.542704Z
+1006,1,usability,2025-09-02T03:22:06.826440Z,1966,3.967,amazon,positive,Looks good and is built with quality in mind.,B00Z2Q92T2,2025-09-02T03:22:06.826463Z
+454,1,general,2025-09-01T20:50:44.483119Z,1414,4.931,amazon,positive,These have been great cables!,B07DC9SBLQ,2025-09-01T20:50:44.483215Z
+938,1,general,2025-09-02T02:38:20.917272Z,1898,4.781,amazon,neutral,I recommend my friend Tech is really in.,B0BHW85ZJJ,2025-09-02T02:38:20.917296Z
+223,1,general,2025-09-01T14:41:31.327160Z,1183,3.47,amazon,positive,I absolutely LOVE this mouse.,B071YZJ1G1,2025-09-01T14:41:31.327226Z
+912,1,general,2025-09-02T02:22:07.972136Z,1872,3.962,amazon,positive,This xdobo speaker IS amazing!,B08K2DLW9L,2025-09-02T02:22:07.972157Z
+472,1,usability,2025-09-01T22:09:24.526440Z,1432,1230.179,amazon,neutral,I didn't even need the included tool.,B07TZJ1CMC,2025-09-01T22:09:24.526454Z
+553,1,general,2025-09-01T22:20:36.615901Z,1513,6.3,amazon,neutral,"I am sure there are ways to put the music on there, but I just don't have the time to mess with it.",B07MH6HSBZ,2025-09-01T22:20:36.615920Z
+290,1,performance,2025-09-01T16:09:18.624861Z,1250,15.065,amazon,positive,It works great and has definitely speeded up my work and my network.,B0000XKBQU,2025-09-01T16:09:18.624876Z
+744,1,performance,2025-09-01T23:08:01.173617Z,1704,5.156,amazon,positive,"The quality is clear, connections excellent.<br />What an incredible bargain this little gizmo is!<br />I'm SO glad we have it.",B0011UXSHK,2025-09-01T23:08:01.173652Z
+945,1,general,2025-09-02T02:40:08.703855Z,1905,3.325,amazon,neutral,They keep cords and cables separate.,B007P39VP0,2025-09-02T02:40:08.703878Z
+368,1,general,2025-09-01T18:45:42.139489Z,1328,3.721,amazon,positive,Love this photo box!,B078X5QR8J,2025-09-01T18:45:42.139590Z
+344,1,price,2025-09-01T17:57:16.645778Z,1304,3.878,amazon,positive,at a great price this is fine memory. for those of you who do not know memory all is good for life .,B003WGJYCY,2025-09-01T17:57:16.645813Z
+568,1,general,2025-09-01T22:22:06.300702Z,1528,4.13,amazon,positive,"I figured this was a winner when I saw 8.7""<br /><br />These are GREAT.",B0BPC8C8W1,2025-09-01T22:22:06.300738Z
+343,1,general,2025-09-01T17:57:11.821316Z,1303,1523.5,amazon,positive,100 percent Great..awesome size and feel.,B00TGOWK3Q,2025-09-01T17:57:11.821329Z
+696,1,general,2025-09-01T22:40:22.414583Z,1656,5.285,amazon,negative,This just shouldn't be..........,B005X0JTP4,2025-09-01T22:40:22.414604Z
+613,1,general,2025-09-01T22:26:56.568847Z,1573,4.616,amazon,positive,Great card. i did not encounter problems with it. i bought it to use it with my blackberry q10. worked fine,B0046XAROG,2025-09-01T22:26:56.568860Z
+690,1,performance,2025-09-01T22:39:39.260484Z,1650,6.011,amazon,negative,"So you are hearing multiple uncompressed audio tracks sent directly to your amp.<br /><br />The worst part of the Blu-ray player is the time it takes to ""boot"" up.",B000PALZE0,2025-09-01T22:39:39.260506Z
+571,1,usability,2025-09-01T22:22:26.483303Z,1531,7.162,amazon,negative,"However, it's implementation of music control and calls/SMS needs much work.",B07VTK654B,2025-09-01T22:22:26.483338Z
+578,1,performance,2025-09-01T22:23:22.553468Z,1538,3.126,amazon,negative,Almost half of the tapes do not work properly and had to be thrown away.,B000001OMZ,2025-09-01T22:23:22.553482Z
+732,1,price,2025-09-01T22:52:28.681342Z,1692,3.28,amazon,positive,This tablet while a good price and seemingly comparable to the Kendle Fire has horrible battery life.,B00V49AS0I,2025-09-01T22:52:28.681449Z
+432,1,usability,2025-09-01T18:52:39.465551Z,1392,6.536,amazon,neutral,The directions are a direct google translate from Chinese.,B0B9ZZYTJP,2025-09-01T18:52:39.465585Z
+845,1,privacy,2025-09-02T01:38:37.284673Z,1805,8.388,amazon,negative,"Plus, they have leaky security, which, in these times of hacks and ransomware, doesn't do it for me.",B07K3Z892V,2025-09-02T01:38:37.284696Z
+438,1,usability,2025-09-01T20:41:59.335736Z,1398,4.107,amazon,positive,To clean my TV  phone n tablets screens worked great,B009L77OXE,2025-09-01T20:41:59.335752Z
+184,1,performance,2025-09-01T03:18:47.755865Z,1144,5.308,amazon,positive,"When it comes to the sound, all I can say is ""wow!""  Everything is extremely clear, and I feel, balanced.",B00HVLUR86,2025-09-01T03:18:47.755882Z
+525,1,connectivity,2025-09-01T22:17:51.757865Z,1485,10.203,amazon,neutral,"While most security cameras can be run via WiFi, nearly all of them still require a power adapter be plugged in.",B082D9FWQH,2025-09-01T22:17:51.757905Z
+289,1,performance,2025-09-01T16:09:02.708399Z,1249,59.792,amazon,neutral,"If you have it in your pocket, the running light is visible and the slow fast feature is always one way, or another when it should be in the middle.",B0006OLB4O,2025-09-01T16:09:02.708413Z
+964,1,usability,2025-09-02T03:02:26.101511Z,1924,3.794,amazon,positive,I love this drive it's huge easy to install and came with everything I needed.,B005T3GRLY,2025-09-02T03:02:26.101534Z
+465,1,general,2025-09-01T21:45:03.335852Z,1425,14.155,amazon,positive,"Unboxing: Wouldn't usually make a section of this, but every once in a while a product makes it a pleasure.",B099KVZRN7,2025-09-01T21:45:03.335869Z
+995,1,usability,2025-09-02T03:21:06.434360Z,1955,7.214,amazon,neutral,Hopefully this was a one time thing but I did notice where other people had to return their initial laptop also.....<br /><br />Update.,B086226DDB,2025-09-02T03:21:06.434382Z
+1013,1,build_quality,2025-09-02T03:22:34.206072Z,1973,5.416,amazon,positive,This case is extra sturdy and adds great protection against damage to the phone.,B08BCCR8VJ,2025-09-02T03:22:34.206092Z
+921,1,build_quality,2025-09-02T02:36:34.015159Z,1881,7.549,amazon,positive,Well made and does its job,B06VV6181L,2025-09-02T02:36:34.015176Z
+550,1,general,2025-09-01T22:20:18.502907Z,1510,3.743,amazon,positive,We're grateful to have it!<br />2nd Review,B08C2VWMC3,2025-09-01T22:20:18.502922Z
+532,1,general,2025-09-01T22:18:43.269539Z,1492,5.03,amazon,negative,No chance with this band!,B09W9PKT1M,2025-09-01T22:18:43.269557Z
+496,1,general,2025-09-01T22:14:56.752655Z,1456,6.47,amazon,neutral,The screen is super flat and wrinkle free.,B008XGTXWE,2025-09-01T22:14:56.752669Z
+575,1,support,2025-09-01T22:22:50.102412Z,1535,7.227,amazon,positive,Actually there's a lot more good than bad.<br /><br />The Good:<br /> • The install process is actually quite easy.,B01L25GOGA,2025-09-01T22:22:50.102424Z
+877,1,general,2025-09-02T02:18:04.694962Z,1837,9.177,amazon,neutral,"That said, I've yet to turn the mic off, so it may be a moot complaint.",B07P8L25KS,2025-09-02T02:18:10.061618Z
+492,1,performance,2025-09-01T22:14:27.838519Z,1452,9.338,amazon,neutral,I also found the bluetooth sound quality to be equal to the AUX In sound quality.,B08NDKW795,2025-09-01T22:14:27.838535Z

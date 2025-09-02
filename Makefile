@@ -19,6 +19,9 @@ baseline:
 train:
 	python -m src.absa_thesis.modeling.train_roberta_absa
 
+serve:
+	CONFIG=config_infer.yaml streamlit run src/absa_thesis/dashboard/Home.py
+
 rules:
 	python -m src.absa_thesis.rules.build_transactions
 	python -m src.absa_thesis.rules.mine_rules

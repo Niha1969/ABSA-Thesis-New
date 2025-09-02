@@ -1,0 +1,60 @@
+=== Amazon Electronics EDA Summary ===
+Total rows: 200000
+Missing text: 0 | Zero-length text: 0 | Duplicate texts: 14950
+
+Rating distribution (stars):
+  1: 16734
+  2: 9065
+  3: 14147
+  4: 29427
+  5: 130627
+Bucket distribution (weak labels):
+  pos: 160054
+  neg: 25799
+  neu: 14147
+Time span: 1999-12-01 → 2023-03-01 | Months: 264
+Length (chars): mean=335.6, median=165, p95=1214
+Length (tokens): mean=64.2, median=32, p95=232
+
+Top unigrams:
+  great: 61420
+  one: 55432
+  can: 55307
+  very: 53424
+  use: 50857
+  good: 47379
+  like: 45742
+  just: 42849
+  all: 41565
+  when: 39058
+  well: 38691
+  works: 35510
+  out: 35388
+  would: 35211
+  will: 33317
+  get: 31826
+  more: 29878
+  work: 29643
+  quality: 29309
+  easy: 29268
+Top bigrams:
+  works_great: 8960
+  sound_quality: 6769
+  easy_use: 5177
+  works_well: 4848
+  very_good: 4335
+  very_well: 4243
+  battery_life: 4177
+  highly_recommend: 3520
+  very_happy: 3345
+  well_made: 3322
+  great_product: 3248
+  very_easy: 3132
+  easy_install: 2938
+  would_recommend: 2884
+  very_nice: 2846
+  really_like: 2747
+  good_quality: 2736
+  much_better: 2654
+  can_use: 2644
+  easy_set: 2589

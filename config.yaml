@@ -13,23 +13,24 @@ data:
 
 etl:
   min_text_len: 20
-  dedup_on: ["platform","source_id","text"]
+  dedup_on: [platform, source_id, text]
 
 annotation:
   labelstudio_tasks: artifacts/labelstudio/tasks.jsonl
   schema:
-    polarity: ["positive","negative","neutral"]
-    aspect_categories: ["battery","screen","performance","updates","price","design","usability","support","privacy","ads"]
+    polarity: [positive, negative, neutral]
+    aspect_categories: [battery, screen, performance, updates, price, design, 
+        usability, support, privacy, ads]
   sentence_sample_n: 5000
 
 modeling:
   absa_train_file: artifacts/absa/absa_train.csv
   absa_val_file: artifacts/absa/absa_val.csv
   absa_test_file: artifacts/absa/absa_test.csv
-  model_name: "roberta-base"
-  max_len: 160
+  model_name: "/Users/nihal/Desktop/ABSA Thesis/artifacts/models/roberta_absa_v1"
+  max_len: 256
   batch_size: 16
-  epochs: 3
+  epochs: 6
   lr: 2e-5
   target_macro_f1: 0.85
 
