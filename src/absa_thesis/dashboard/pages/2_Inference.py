@@ -1,64 +1,59 @@
-# src/absa_thesis/dashboard/pages/2_Inference.py
-from pathlib import Path
-import os, yaml, streamlit as st
-import torch
+import streamlit as st, yaml, torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import pandas as pd
+from pathlib import Path
 
-st.title("🧪 Inference")
+st.set_page_config(page_title="Inference", layout="wide")
+st.title("Batch Inference")
 
-# Force the root config.yaml
-REPO_ROOT = Path(__file__).resolve().parents[4]  # .../src/absa_thesis/dashboard/pages -> up 3
-CFG_PATH  = REPO_ROOT / "config.yaml"
-cfg = yaml.safe_load(open(CFG_PATH, "r"))
-model_path = cfg["modeling"]["model_name"]  # this is your ABSOLUTE path now
+cfg = yaml.safe_load(open("config.yaml"))
+serv = cfg.get("serving", {})
+model_dir = serv.get("model_path")
+labels_path = serv.get("labels_path")
 
 @st.cache_resource(show_spinner=False)
-def load_model_and_tokenizer(path: str):
-    tok = AutoTokenizer.from_pretrained(path, use_fast=True)      # fail loud if missing
-    mdl = AutoModelForSequenceClassification.from_pretrained(path)# fail loud if missing
-    mdl.eval()
-    # prefer labels.txt
-    id2label = {}
-    lbl_fp = Path(path) / "labels.txt"
-    if lbl_fp.exists():
-        for line in open(lbl_fp, "r", encoding="utf-8"):
-            i, lab = line.strip().split("\t")
-            id2label[int(i)] = lab
-    elif getattr(mdl.config, "id2label", None):
-        tmp = {int(k): v for k, v in mdl.config.id2label.items()}
-        if not any(str(v).startswith("LABEL_") for v in tmp.values()):
-            id2label = tmp
-    if not id2label:
-        id2label = {0: "negative", 1: "neutral", 2: "positive"}
-    return tok, mdl, id2label
+def load_model(md):
+    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    tok = AutoTokenizer.from_pretrained(md)
+    mdl = AutoModelForSequenceClassification.from_pretrained(md).to(device).eval()
+    return tok, mdl, device
 
-# Debug block so you can see what it’s actually loading
-with st.expander("Debug"):
-    st.write({"config_file": str(CFG_PATH.resolve()),
-              "model_path": str(Path(model_path).resolve())})
-    try:
-        items = sorted(os.listdir(model_path))
-        st.write({"dir_len": len(items), "sample": items[:10]})
-    except Exception as e:
-        st.error(f"Cannot list model dir: {e}")
+def predict_sentences(texts, tok, mdl, device, max_len=256, batch=64, labels=("negative","neutral","positive")):
+    preds, probs = [], []
+    with torch.no_grad():
+        for i in range(0, len(texts), batch):
+            enc = tok(texts[i:i+batch], max_length=max_len, padding=True, truncation=True, return_tensors="pt").to(device)
+            logits = mdl(**enc).logits
+            p = logits.softmax(-1).cpu().numpy()
+            preds.extend([labels[j] for j in p.argmax(1)])
+            probs.extend(p.tolist())
+    out = pd.DataFrame({
+        "sentence": texts,
+        "polarity_pred": preds,
+        "prob_negative": [p[0] for p in probs],
+        "prob_neutral":  [p[1] for p in probs],
+        "prob_positive": [p[2] for p in probs],
+    })
+    return out
 
-# Optional: a reload button to clear the cached model
-if st.button("🔄 Reload model (clear cache)"):
-    load_model_and_tokenizer.clear()
-    st.success("Cache cleared. Predict again to reload.")
+if not model_dir or not Path(model_dir).exists():
+    st.error("serving.model_path missing or invalid in config.yaml")
+    st.stop()
 
-tok, mdl, id2label = load_model_and_tokenizer(model_path)
+labels = ("negative","neutral","positive")
+st.caption(f"Using model: {model_dir}")
 
-txt = st.text_area("Paste a single review sentence (20–300 chars).", height=120)
-if st.button("Predict", type="primary"):
-    s = (txt or "").strip()
-    if not s:
-        st.warning("Give me a sentence.")
+tok, mdl, device = load_model(model_dir)
+
+up = st.file_uploader("Upload CSV with a 'sentence' column", type=["csv"])
+if up is not None:
+    df = pd.read_csv(up)
+    if "sentence" not in df.columns:
+        st.error("CSV must contain a 'sentence' column.")
     else:
-        with torch.no_grad():
-            b = tok([s], padding=True, truncation=True, max_length=256, return_tensors="pt")
-            out = mdl(**b)
-            probs = torch.softmax(out.logits, dim=-1)[0].tolist()
-            pred = int(torch.argmax(out.logits, dim=-1).item())
-        st.success(f"Predicted: **{id2label.get(pred, pred)}**")
-        st.caption("Probabilities → " + ", ".join(f"{id2label[i]}: {probs[i]:.3f}" for i in range(len(probs))))
+        texts = df["sentence"].astype(str).tolist()
+        with st.spinner("Running inference..."):
+            out = predict_sentences(texts, tok, mdl, device)
+        st.success(f"Predicted {len(out)} rows.")
+        st.dataframe(out.head(20), use_container_width=True, hide_index=True)
+        st.download_button("Download predictions", out.to_csv(index=False).encode("utf-8"), file_name="predictions.csv")

@@ -3,8 +3,9 @@ paths:
   raw_dir: data/data_raw
   clean_dir: data/data_clean
   artifacts_dir: artifacts
-  models_dir: models
+  models_dir: models                # keep if you use it elsewhere
   rules_dir: artifacts/rules
+  test_frozen_file: artifacts/absa/test_frozen_2025-09-02.csv   # <— add this once
 
 data:
   sample_files:
@@ -19,24 +20,30 @@ annotation:
   labelstudio_tasks: artifacts/labelstudio/tasks.jsonl
   schema:
     polarity: [positive, negative, neutral]
-    aspect_categories: [battery, screen, performance, updates, price, design, 
-        usability, support, privacy, ads]
+    aspect_categories: [battery, screen, performance, updates, price, design, usability, support, privacy, ads]
   sentence_sample_n: 5000
 
 modeling:
-  absa_train_file: artifacts/absa/absa_train.csv
+  absa_train_file: artifacts/preds/preds_50k_aspect_for_rules.csv
   absa_val_file: artifacts/absa/absa_val.csv
-  absa_test_file: artifacts/absa/absa_test.csv
-  model_name: "/Users/nihal/Desktop/ABSA Thesis/artifacts/models/roberta_absa_v1"
+  absa_test_file: artifacts/absa/absa_test.csv      # legacy; keep for tools that still read it
+  base_model: roberta-base                          # <— TRAINING ALWAYS STARTS FROM HERE
   max_len: 256
   batch_size: 16
   epochs: 6
   lr: 2e-5
   target_macro_f1: 0.85
+  output_dir: runs/roberta_absa                      # scratch checkpoints per run
+
+serving:
+  model_path: "/Users/nihal/Desktop/ABSA Thesis/artifacts/models/roberta_absa_v2"
+  labels_path: "/Users/nihal/Desktop/ABSA Thesis/artifacts/models/roberta_absa_v2/labels.txt"
 
 rules:
-  min_support: 0.02
+  min_support: 0.01      # from 0.02
   min_confidence: 0.6
+  min_lift: 1.2       # (it logged lift=1.0 before)
+
 
 dashboard:
   refresh_minutes: 60

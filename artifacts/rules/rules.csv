@@ -1,4 +1,8 @@
-antecedents,consequents,support,confidence,lift,leverage,conviction
-Aspect=screen,Polarity=negative,0.0375,0.7499999999999999,1.6666666666666663,0.014999999999999996,2.1999999999999993
-Aspect=design,Polarity=negative,0.1,0.7272727272727273,1.6161616161616161,0.038125,2.016666666666667
-Aspect=support,Polarity=negative,0.025,0.6666666666666667,1.4814814814814816,0.008125,1.6500000000000006
+direction,antecedents,consequents,support,confidence,lift,leverage
+ap,Aspect=price,Polarity=positive,0.244561,0.848266,1.139922,-0.3866711058235348
+ap,Aspect=usability,Polarity=positive,0.096982,0.816128,1.096734,-0.5103348039996296
+pa,Polarity=negative,Aspect=design,0.045737,0.256025,1.189387,-0.009374390149060274
+pa,Polarity=negative,Aspect=battery,0.043561,0.243846,1.262294,-0.0035443308952874675
+pa,Polarity=negative,Aspect=screen,0.015693,0.087847,1.262583,0.009580878853809831
+pa,Polarity=negative,Aspect=support,0.009768,0.054677,1.661239,0.007968382047958522
+pa,Polarity=negative,Aspect=performance,0.008934,0.050013,1.39045,0.007135087815942968

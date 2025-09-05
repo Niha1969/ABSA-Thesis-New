@@ -1,29 +1,65 @@
 [
   {
-    "antecedents": "Aspect=screen",
-    "consequents": "Polarity=negative",
-    "support": 0.0375,
-    "confidence": 0.7499999999999999,
-    "lift": 1.6666666666666663,
-    "leverage": 0.014999999999999996,
-    "conviction": 2.1999999999999993
+    "direction": "ap",
+    "antecedents": "Aspect=price",
+    "consequents": "Polarity=positive",
+    "support": 0.244561,
+    "confidence": 0.848266,
+    "lift": 1.139922,
+    "leverage": -0.3866711058235348
   },
   {
-    "antecedents": "Aspect=design",
-    "consequents": "Polarity=negative",
-    "support": 0.1,
-    "confidence": 0.7272727272727273,
-    "lift": 1.6161616161616161,
-    "leverage": 0.038125,
-    "conviction": 2.016666666666667
+    "direction": "ap",
+    "antecedents": "Aspect=usability",
+    "consequents": "Polarity=positive",
+    "support": 0.096982,
+    "confidence": 0.816128,
+    "lift": 1.096734,
+    "leverage": -0.5103348039996296
   },
   {
-    "antecedents": "Aspect=support",
-    "consequents": "Polarity=negative",
-    "support": 0.025,
-    "confidence": 0.6666666666666667,
-    "lift": 1.4814814814814816,
-    "leverage": 0.008125,
-    "conviction": 1.6500000000000006
+    "direction": "pa",
+    "antecedents": "Polarity=negative",
+    "consequents": "Aspect=design",
+    "support": 0.045737,
+    "confidence": 0.256025,
+    "lift": 1.189387,
+    "leverage": -0.009374390149060274
+  },
+  {
+    "direction": "pa",
+    "antecedents": "Polarity=negative",
+    "consequents": "Aspect=battery",
+    "support": 0.043561,
+    "confidence": 0.243846,
+    "lift": 1.262294,
+    "leverage": -0.0035443308952874675
+  },
+  {
+    "direction": "pa",
+    "antecedents": "Polarity=negative",
+    "consequents": "Aspect=screen",
+    "support": 0.015693,
+    "confidence": 0.087847,
+    "lift": 1.262583,
+    "leverage": 0.009580878853809831
+  },
+  {
+    "direction": "pa",
+    "antecedents": "Polarity=negative",
+    "consequents": "Aspect=support",
+    "support": 0.009768,
+    "confidence": 0.054677,
+    "lift": 1.661239,
+    "leverage": 0.007968382047958522
+  },
+  {
+    "direction": "pa",
+    "antecedents": "Polarity=negative",
+    "consequents": "Aspect=performance",
+    "support": 0.008934,
+    "confidence": 0.050013,
+    "lift": 1.39045,
+    "leverage": 0.007135087815942968
   }
 ]
