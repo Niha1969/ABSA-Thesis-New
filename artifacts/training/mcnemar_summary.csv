@@ -1,3 +1,5 @@
 pair,b01,b10,p_value
 baseline_vs_v2,26,4,0.0
 v1_vs_v2,5,8,0.0
+v2_vs_vader,19,3,0.000855
+v2_vs_textblob,29,2,0.0

@@ -1,0 +1,4 @@
+model,macro_f1,f1_negative,f1_neutral,f1_positive
+vader,0.577,0.486,0.465,0.78
+textblob,0.447,0.378,0.255,0.708
+v2,0.795,0.769,0.706,0.911
