@@ -1,0 +1,12 @@
+Items paired: 250
+Accuracy: 0.812
+Cohen's kappa: 0.718  (95% CI 0.643–0.784)
+Confusion matrix (rows=true/original, cols=new):
+          negative  neutral  positive
+negative        66       15         2
+neutral         10       61        11
+positive         0        9        76
+Per-class agreement (diag / row sum):
+negative    0.795
+neutral     0.744
+positive    0.894
